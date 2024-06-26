@@ -1,0 +1,31 @@
+@model CustomViewerModel
+@{
+    var viewerRender = Html.DevExpress()
+        .WebDocumentViewer("DocumentViewer")
+        .Height("900px")
+        .Bind(Model.ViewerModel);
+    
+}
+<form asp-controller="Home" asp-action="Viewer" method="post" class="form-horizontal" role="form">
+
+    <select asp-for="@Model.ReportName" asp-items="@(new SelectList(Model.AvailableReports,"Key", "Value"))">
+        <option>Please select one</option>
+    </select>
+    <input type="submit" value="Open Report" />
+    @viewerRender.RenderHtml()
+</form>
+
+@section Scripts {
+    <link href="~/css/dx-reporting-skeleton-screen.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/viewer.part.bundle.css" />
+    <script src="~/js/reporting.thirdparty.bundle.js"></script>
+    <script src="~/js/viewer.part.bundle.js"></script>
+@*     <script>
+        (function() {
+            window.onbeforeunload = function() {
+                DocumentViewer && DocumentViewer.Close();
+            }
+        })()
+    </script> *@
+    @viewerRender.RenderScripts()
+}
