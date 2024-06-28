@@ -19,10 +19,10 @@ Before you run the project, specify [Azure Storage Access Key](https://learn.mic
 
 ## Files to Review
 
-- [CustomReportBlobContainerClientProvider.cs](CS\Services\CustomReportBlobContainerClientProvider.cs)
-- [CustomReportStorageWebExtension.cs](CS\Services\CustomReportStorageWebExtension.cs)
-- [Program.cs](CS\Program.cs)
-- [appsettings.json](CS\appsettings.json)
+- [CustomReportBlobContainerClientProvider.cs](./CS/Services/CustomReportBlobContainerClientProvider.cs)
+- [CustomReportStorageWebExtension.cs](./CS/Services/CustomReportStorageWebExtension.cs)
+- [Program.cs](.CS/Program.cs)
+- [appsettings.json](.CS/appsettings.json)
 
 ## Documentation
 
