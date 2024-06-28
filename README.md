@@ -1,3 +1,9 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/820323720/23.2.6%2B)
+[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1240159)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+[![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
+<!-- default badges end -->
 # Reporting for ASP.NET Core - Azure Report Storage
 
 In this example, Azure Blob Storage is used as a report repository for an ASP.NET Core Reporting application with Document Viewer and Report Designer.
@@ -33,7 +39,7 @@ Before you run the project, specify [Azure Storage Access Key](https://learn.mic
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
-[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-provide-custom-report-gallery-storage-in-report-designer&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-provide-custom-report-gallery-storage-in-report-designer&~~~was_helpful=no)
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-azure-blob-storage&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-asp-net-core-azure-blob-storage&~~~was_helpful=no)
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
