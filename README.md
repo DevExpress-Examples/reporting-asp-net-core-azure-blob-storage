@@ -12,7 +12,7 @@ In this example, Azure Blob Storage is used as a report repository for an ASP.NE
 ![Document Viewer](/images/screenshot.png)
 
 
-The `CustomReportBlobContainerClientProvider` service supplies the [BlobContainerClient](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient) to the `CustomReportStorageWebExtension` service. A `CustomReportStorageWebExtension` service is a [ReportStorageWebExtension](DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension) class descendant, and uses [BlobContainerClient](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient) methods to store and retrieve report data.
+The `CustomReportBlobContainerClientProvider` service supplies the [BlobContainerClient](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient) to the `CustomReportStorageWebExtension` service. A `CustomReportStorageWebExtension` service is a [ReportStorageWebExtension]([DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension](https://docs.devexpress.com/XtraReports/DevExpress.XtraReports.Web.Extensions.ReportStorageWebExtension)) class descendant, and uses [BlobContainerClient](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.blobcontainerclient) methods to store and retrieve report data.
 
 Before you run the project, specify [Azure Storage Access Key](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet) as the `ProdAzureBlobStorageAccountConnectionString` connection string in the `appsettings.json` file. 
 
